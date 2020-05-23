@@ -121,4 +121,4 @@ select * from prijatelj p ;
 delete from prijatelj where asocijalno =false ;
 
 select * from neprijatelj;
-select * from neprijatelj where nausnica in ('ana');
+select nausnica from neprijatelj where carape in ('ana');
